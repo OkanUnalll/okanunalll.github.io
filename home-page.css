@@ -1,0 +1,161 @@
+/* BOTTOM MAIN */
+.bottom-main{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: rgba(16, 5, 35, 0.7);
+    backdrop-filter: blur(30px);
+    z-index: 1;
+}
+
+
+
+/* HEADER */
+.header{
+    width: 100%;
+    height: 600px;
+    padding: 0rem 5rem;
+    z-index: 1;
+    margin-top: 150px;
+    position: relative;
+    border-radius: 10px;
+}
+
+    .header-banner{
+        width: 100%;
+        height: 600px;
+        border-radius: inherit;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+        .content-header-banner-img{
+            width: auto;
+            height: 100%;
+            position: absolute;
+        }
+
+    .header-content{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        row-gap: 2rem;
+        position: absolute;
+        right: 7rem;
+        top: 50px;
+        padding: 3rem;
+        z-index: 2;
+    }
+
+        .header-content h2, .header-content p{
+            color: #fff;
+            text-align: end;
+        }
+
+        .header-content h2{
+            font-size: 50px;
+            line-height: 55px;
+        }
+
+        .header-content p{
+            font-size: 13px;
+        }
+
+        .content-header-btn{
+            font-size: 25px;
+            padding: .5rem;
+            color: #fff;
+            background-color: #8235EF;
+            border-color: #8235EF;
+            border-radius: 3px;
+        }
+/* --------------- */
+
+
+
+/* SECTION 1 */
+.section-1{
+    
+}
+
+    .section-long-games{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 1rem;
+    }
+/* --------------- */
+
+
+
+/* SECTION 2 */
+
+.section-2{
+    
+}
+
+    .section-2-banner{
+        width: 1120px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border-radius: 10px;
+    }
+
+        .section-2-banner-image{
+            width: auto;
+            height: 170px;
+            border-radius: inherit;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+            .content-section-2-banner{
+                width: auto;
+                height: 100%;
+                position: relative;
+                z-index: 5;
+            }
+
+        .content-section-2-text{
+            width: inherit;
+            height: inherit;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            border-radius: inherit;
+            background-image: linear-gradient(130deg, rgba(101, 0, 241, 0.8), rgba(27, 0, 65, 0.8));
+            z-index: 6;
+        }
+
+                .content-section-2-text h2{
+                    color: #fff;
+                    font-size: 40px;
+                }
+
+    .section-2-products{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
